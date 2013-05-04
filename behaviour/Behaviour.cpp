@@ -6,6 +6,8 @@
 //  Copyright (c) 2013 HengHong. All rights reserved.
 //
 
+//TODO: Change include statements
+
 #include "Behaviour.h"
 extern "C" {
 #include "lua.h"
@@ -32,6 +34,8 @@ enum Status
     BH_RUNNING,
 };
 
+
+//TODO: Review Functions Class
 class Functions
 {
 public:
@@ -44,6 +48,7 @@ public:
     
 };
 
+//TODO: Refactor Behavior Class
 class Behavior
 {
 public:
